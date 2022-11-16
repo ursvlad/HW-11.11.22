@@ -7,15 +7,15 @@
 // // a = -9 b = -3 -> max = -3
 
 Console.WriteLine("Введите первое чиcло : ");
-int number1 = Convert.ToInt32(Console.ReadLine());
+int n1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе чиcло : ");
-int number2 = Convert.ToInt32(Console.ReadLine());
+int n2 = Convert.ToInt32(Console.ReadLine());
 
-if (number1 > number2)
+if (n1 > n2)
 {
-    Console.WriteLine("max = " + number1);
+    Console.WriteLine("max = " + n1);
 }
 else
 {
-    Console.WriteLine("max = " + number2);
+    Console.WriteLine("max = " + n2);
 }

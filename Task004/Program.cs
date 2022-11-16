@@ -5,14 +5,14 @@
 // 22, 3, 9 -> 22
 
 Console.WriteLine("Введите первое число : ");
-int number1 = Convert.ToInt32(Console.ReadLine());
+int n1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число : ");
-int number2 = Convert.ToInt32(Console.ReadLine());
+int n2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите третье число : ");
-int number3 = Convert.ToInt32(Console.ReadLine());
-int max = number1;
-if (number2 > number1) max = number2;
-if (number3 > max) max = number3;
+int n3 = Convert.ToInt32(Console.ReadLine());
+int max = n1;
+if (n2 > n1) max = n2;
+if (n3 > max) max = n3;
 Console.WriteLine($"Максимальное число: {max}");
 
 
