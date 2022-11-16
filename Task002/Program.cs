@@ -6,7 +6,12 @@
 // // a = 2 b = 10 -> max = 10
 // // a = -9 b = -3 -> max = -3
 
-Console.WriteLine("Введите первое чиcло : ");
+// ввод данных пользователем двух чисел
+// преобразуем число
+// если первое больше второго, то является максимальным 
+// иначе второе максимальное
+
+Console.WriteLine("Введите первое чиcло : "); 
 int n1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе чиcло : ");
 int n2 = Convert.ToInt32(Console.ReadLine());
